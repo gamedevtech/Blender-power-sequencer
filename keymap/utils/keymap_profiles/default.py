@@ -125,6 +125,9 @@ def default():
                     },
                     "power_sequencer.delete_direct" : {
                         "0" : ["type=X"]
+                    },
+                    "power_sequencer.align_audios": {
+                        "0" : ["type=L", "ctrl=True"]
                     }
                 }
             }

@@ -77,6 +77,16 @@
             <td width=222px><a name="top_Add_Crossfade" href="#Add_Crossfade" title="Adds cross fade between
     selected sequence and the
     closest sequence to it's right">Add Crossfade</a></td>
+            <td width=222px><a name="top_Delete_Closest_Marker" href="#Delete_Closest_Marker" title="Delete the marker closest to
+    the mouse">Delete Closest Marker</a></td>
+            <td width=222px><a name="top_Mouse_Cut" href="#Mouse_Cut" title="Fast strip cutting based on
+    mouse position">Mouse Cut</a></td>
+            <td width=222px><a name="top_Set_Timeline_Range" href="#Set_Timeline_Range" title="Set timeline start and end
+    frame using the time cursor">Set Timeline Range</a></td>
+        </tr>
+        <tr>
+            <td width=222px><a name="top_Add_Speed" href="#Add_Speed" title="Add 2x speed, set frame end,
+    wrap both into META">Add Speed</a></td>
             <td width=222px><a name="top_Delete_Direct" href="#Delete_Direct" title="Delete without confirmation">Delete Direct</a></td>
             <td width=222px><a name="top_Mouse_Toggle_Mute" href="#Mouse_Toggle_Mute" title="Toggle mute status of clicked
     strips">Mouse Toggle Mute</a></td>
@@ -86,8 +96,9 @@
     generation">Set Videos Proxies</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Add_Speed" href="#Add_Speed" title="Add 2x speed, set frame end,
-    wrap both into META">Add Speed</a></td>
+            <td width=222px><a name="top_Add_Transform" href="#Add_Transform" title="Add transform effect to
+    selected image and movie
+    strips. Auto centers images">Add Transform</a></td>
             <td width=222px><a name="top_Deselect_Handles_And_Grab" href="#Deselect_Handles_And_Grab" title="Deselect the handles of all
     selected strips and call the
     Sequence Slide operator">Deselect Handles And Grab</a></td>
@@ -97,9 +108,7 @@
     selected strips to cursor">Smart Snap Strip Handles</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Add_Transform" href="#Add_Transform" title="Add transform effect to
-    selected image and movie
-    strips. Auto centers images">Add Transform</a></td>
+            <td width=222px><a name="top_Align_Audios" href="#Align_Audios" title="Align two similar audios">Align Audios</a></td>
             <td width=222px><a name="top_Edit_Crossfade" href="#Edit_Crossfade" title="Adjust the location of the
     crossfade between 2 strips">Edit Crossfade</a></td>
             <td width=222px><a name="top_Open_Project_Directory" href="#Open_Project_Directory" title="Opens the Blender project
@@ -164,7 +173,7 @@
     triple">Increase Playback Speed</a></td>
             <td width=222px><a name="top_Select_Linked_Effect" href="#Select_Linked_Effect" title="Select all strips that are
     linked by an effect strip">Select Linked Effect</a></td>
-            <td width=222px rowspan="3"></td>
+            <td width=222px rowspan="2"></td>
         </tr>
         <tr>
             <td width=222px><a name="top_Decrease_Playback_Speed" href="#Decrease_Playback_Speed" title="Decrease playback speed
@@ -174,14 +183,6 @@
             <td width=222px><a name="top_Set_Preview_Between_Markers" href="#Set_Preview_Between_Markers" title="Set the timeline's preview
     range using the 2 markers
     closest to the time cursor">Set Preview Between Markers</a></td>
-        </tr>
-        <tr>
-            <td width=222px><a name="top_Delete_Closest_Marker" href="#Delete_Closest_Marker" title="Delete the marker closest to
-    the mouse">Delete Closest Marker</a></td>
-            <td width=222px><a name="top_Mouse_Cut" href="#Mouse_Cut" title="Fast strip cutting based on
-    mouse position">Mouse Cut</a></td>
-            <td width=222px><a name="top_Set_Timeline_Range" href="#Set_Timeline_Range" title="Set timeline start and end
-    frame using the time cursor">Set Timeline Range</a></td>
         </tr>
     </table>
         <h3><a name="Add_Crossfade" href="#top_Add_Crossfade">Add Crossfade</a></h3>
@@ -235,6 +236,29 @@
                 <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/T.png" alt="T"></td>
                 <td><p>Add Transform</p>
         </td>
+            </tr>
+        </table>
+        <h3><a name="Align_Audios" href="#top_Align_Audios">Align Audios</a></h3>
+    <p><strong>Experimental</strong>: this feature may or may not be in the final addon</p>
+    
+    <p>Attempt alignment between the selected audio strip to the active
+    audio strip. The better the correlation, the better the result.</p>
+    
+    <p>This operator <strong>requires</strong> ffmpeg and scipy to work. Audio must be
+    converted to WAV data prior to analyzing, so longer strips may take
+    longer to align. To mitigate this issue, analysis will be limited to
+    the first 15 minutes of audio at most.</p>
+    
+        <table>
+            <tr>
+                <th width=208px>Shortcut</th>
+                <th width=417px>Function</th>
+                <th width=256px>Demo</th>
+            <tr>
+                <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/CTRL.png" alt="CTRL"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/L.png" alt="L"></td>
+                <td><p>Align Audios</p>
+        </td>
+                <td align="center" rowspan="1"><img src="https://i.imgur.com/egZBkUk.gif" alt="Demo"></td>
             </tr>
         </table>
         <h3><a name="Border_Select" href="#top_Border_Select">Border Select</a></h3>
