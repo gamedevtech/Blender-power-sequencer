@@ -9,7 +9,7 @@ def indent_json(dictionary, indent=0):
     for i in range(len(keys)):
         key = keys[i]
         if type(dictionary[key]) is dict:
-            lines.append(' ' * indent + '"' + key + '" : {')
+            lines.append(' ' * indent + '"' + key + '": {')
             lines.extend(indent_json(dictionary[key], indent + 4))
             lines.append(' ' * indent + '}')
         else:
@@ -21,7 +21,7 @@ def indent_json(dictionary, indent=0):
                 else:
                     list_string += '"' + item + '"'
             list_string += ']'
-            lines.append(' ' * indent + '"' + key + '" : ' + list_string)
+            lines.append(' ' * indent + '"' + key + '": ' + list_string)
 
         if not i == len(keys) - 1:
                 lines[-1] += ','

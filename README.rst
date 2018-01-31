@@ -77,6 +77,17 @@
             <td width=222px><a name="top_Add_Crossfade" href="#Add_Crossfade" title="Adds cross fade between
     selected sequence and the
     closest sequence to it's right">Add Crossfade</a></td>
+            <td width=222px><a name="top_Decrease_Playback_Speed" href="#Decrease_Playback_Speed" title="Decrease playback speed
+    incrementally down to normal">Decrease Playback Speed</a></td>
+            <td width=222px><a name="top_Make_Still_Image" href="#Make_Still_Image" title="Make still image from active
+    strip">Make Still Image</a></td>
+            <td width=222px><a name="top_Set_Preview_Between_Markers" href="#Set_Preview_Between_Markers" title="Set the timeline's preview
+    range using the 2 markers
+    closest to the time cursor">Set Preview Between Markers</a></td>
+        </tr>
+        <tr>
+            <td width=222px><a name="top_Add_Speed" href="#Add_Speed" title="Add 2x speed, set frame end,
+    wrap both into META">Add Speed</a></td>
             <td width=222px><a name="top_Delete_Closest_Marker" href="#Delete_Closest_Marker" title="Delete the marker closest to
     the mouse">Delete Closest Marker</a></td>
             <td width=222px><a name="top_Mouse_Cut" href="#Mouse_Cut" title="Fast strip cutting based on
@@ -85,8 +96,9 @@
     frame using the time cursor">Set Timeline Range</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Add_Speed" href="#Add_Speed" title="Add 2x speed, set frame end,
-    wrap both into META">Add Speed</a></td>
+            <td width=222px><a name="top_Add_Transform" href="#Add_Transform" title="Add transform effect to
+    selected image and movie
+    strips. Auto centers images">Add Transform</a></td>
             <td width=222px><a name="top_Delete_Direct" href="#Delete_Direct" title="Delete without confirmation">Delete Direct</a></td>
             <td width=222px><a name="top_Mouse_Toggle_Mute" href="#Mouse_Toggle_Mute" title="Toggle mute status of clicked
     strips">Mouse Toggle Mute</a></td>
@@ -96,9 +108,7 @@
     generation">Set Videos Proxies</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Add_Transform" href="#Add_Transform" title="Add transform effect to
-    selected image and movie
-    strips. Auto centers images">Add Transform</a></td>
+            <td width=222px><a name="top_Align_Audios" href="#Align_Audios" title="Align two similar audios">Align Audios</a></td>
             <td width=222px><a name="top_Deselect_Handles_And_Grab" href="#Deselect_Handles_And_Grab" title="Deselect the handles of all
     selected strips and call the
     Sequence Slide operator">Deselect Handles And Grab</a></td>
@@ -108,7 +118,8 @@
     selected strips to cursor">Smart Snap Strip Handles</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Align_Audios" href="#Align_Audios" title="Align two similar audios">Align Audios</a></td>
+            <td width=222px><a name="top_Border_Select" href="#Border_Select" title="Wrapper around Blender's border
+    select, deselects handles">Border Select</a></td>
             <td width=222px><a name="top_Edit_Crossfade" href="#Edit_Crossfade" title="Adjust the location of the
     crossfade between 2 strips">Edit Crossfade</a></td>
             <td width=222px><a name="top_Open_Project_Directory" href="#Open_Project_Directory" title="Opens the Blender project
@@ -117,8 +128,7 @@
     time cursor">Snap Marker To Cursor</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Border_Select" href="#Border_Select" title="Wrapper around Blender's border
-    select, deselects handles">Border Select</a></td>
+            <td width=222px><a name="top_Change_Playback_Speed" href="#Change_Playback_Speed" title="Change the playback speed">Change Playback Speed</a></td>
             <td width=222px><a name="top_Fade_Strips" href="#Fade_Strips" title="Fade left, right or both sides
     of all selected strips in the
     VSE">Fade Strips</a></td>
@@ -128,7 +138,8 @@
     cursor as a block">Snap Selection To Cursor</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Change_Playback_Speed" href="#Change_Playback_Speed" title="Change the playback speed">Change Playback Speed</a></td>
+            <td width=222px><a name="top_Channel_Offset" href="#Channel_Offset" title="Move selected strips up or down
+    a channel">Channel Offset</a></td>
             <td width=222px><a name="top_Go_To_Next_Marker" href="#Go_To_Next_Marker" title="Move time cursor to the next
     marker">Go To Next Marker</a></td>
             <td width=222px><a name="top_Preview_To_Selection" href="#Preview_To_Selection" title="Sets the timeline preview range
@@ -139,8 +150,9 @@
     title marker">Synchronize Titles</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Channel_Offset" href="#Channel_Offset" title="Move selected strips up or down
-    a channel">Channel Offset</a></td>
+            <td width=222px><a name="top_Clear_Fades" href="#Clear_Fades" title="Set selected strips' opacity to
+    1.0 and remove opacity
+    keyframes">Clear Fades</a></td>
             <td width=222px><a name="top_Grab_Closest_Handle_Or_Cut" href="#Grab_Closest_Handle_Or_Cut" title="Grab the closest strip's
     handle, or cut it">Grab Closest Handle Or Cut</a></td>
             <td width=222px><a name="top_Render_For_Web" href="#Render_For_Web" title="Pick a rendering preset and let
@@ -173,18 +185,8 @@
     triple">Increase Playback Speed</a></td>
             <td width=222px><a name="top_Select_Linked_Effect" href="#Select_Linked_Effect" title="Select all strips that are
     linked by an effect strip">Select Linked Effect</a></td>
-            <td width=222px><a name="top_Remove_Speed" href="#Remove_Speed" title="Removes speed from META,
-    un-groups META">Remove Speed</a></td>
-        </tr>
-        <tr>
-            <td width=222px><a name="top_Decrease_Playback_Speed" href="#Decrease_Playback_Speed" title="Decrease playback speed
-    incrementally down to normal">Decrease Playback Speed</a></td>
-            <td width=222px><a name="top_Make_Still_Image" href="#Make_Still_Image" title="Make still image from active
-    strip">Make Still Image</a></td>
-            <td width=222px><a name="top_Set_Preview_Between_Markers" href="#Set_Preview_Between_Markers" title="Set the timeline's preview
-    range using the 2 markers
-    closest to the time cursor">Set Preview Between Markers</a></td>
-            <td width=222px rowspan="1"></td>
+            <td width=222px><a name="top_Unspeed" href="#Unspeed" title="Removes speed from META,
+    un-groups META">Unspeed</a></td>
         </tr>
     </table>
         <h3><a name="Add_Crossfade" href="#top_Add_Crossfade">Add Crossfade</a></h3>
@@ -246,7 +248,9 @@
     <p>Attempt alignment between the selected audio strip to the active
     audio strip. The better the correlation, the better the result.</p>
     
-    <p>This operator <strong>requires</strong> ffmpeg and scipy to work. Audio must be
+    <p>This operator requires
+    <a href="https://www.ffmpeg.org/download.html">ffmpeg</a> and
+    <a href="https://www.scipy.org/install.html">scipy</a> to work. Audio must be
     converted to WAV data prior to analyzing, so longer strips may take
     longer to align. To mitigate this issue, analysis will be limited to
     the first 15 minutes of audio at most.</p>
@@ -320,6 +324,19 @@
             <tr>
                 <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/ALT.png" alt="ALT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/DOWN_ARROW.png" alt="DOWN_ARROW"></td>
                 <td><p>Move to Open Channel Below</p>
+        </td>
+            </tr>
+        </table>
+        <h3><a name="Clear_Fades" href="#top_Clear_Fades">Clear Fades</a></h3>
+    <p>Sets strip's opacity to 1.0 and removes any opacity-keyframes.</p>
+    
+        <table>
+            <tr>
+                <th width=208px>Shortcut</th>
+                <th width=417px>Function</th>
+            <tr>
+                <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/CTRL.png" alt="CTRL"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/ALT.png" alt="ALT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/F.png" alt="F"></td>
+                <td><p>Clear Fades</p>
         </td>
             </tr>
         </table>
@@ -818,7 +835,7 @@
         </td>
             </tr>
         </table>
-        <h3><a name="Remove_Speed" href="#top_Remove_Speed">Remove Speed</a></h3>
+        <h3><a name="Unspeed" href="#top_Unspeed">Unspeed</a></h3>
     <p>This is the opposite of power_sequencer's "Add Speed" operator.
     It seeks out and removes the speed modifier inside a meta and
     ungroups all the remaining strips within.</p>
@@ -829,7 +846,7 @@
                 <th width=417px>Function</th>
             <tr>
                 <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/ALT.png" alt="ALT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/SHIFT.png" alt="SHIFT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/PLUS.png" alt="PLUS"></td>
-                <td><p>Remove Speed</p>
+                <td><p>Unspeed</p>
         </td>
             </tr>
         </table>
