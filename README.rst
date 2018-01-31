@@ -258,7 +258,7 @@
                 <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/CTRL.png" alt="CTRL"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/L.png" alt="L"></td>
                 <td><p>Align Audios</p>
         </td>
-                <td align="center" rowspan="1"><img src="https://i.imgur.com/egZBkUk.gif" alt="Demo"></td>
+                <td align="center" rowspan="1"><img src="https://i.imgur.com/xkBUzDj.gif" alt="Demo"></td>
             </tr>
         </table>
         <h3><a name="Border_Select" href="#top_Border_Select">Border Select</a></h3>
