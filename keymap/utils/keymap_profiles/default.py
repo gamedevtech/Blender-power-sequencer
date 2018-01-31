@@ -27,6 +27,9 @@ def default():
                     "power_sequencer.add_speed" : {
                         "0" : ["type=PLUS", "shift=True"]
                     },
+                    "power_sequencer.unspeed": {
+                        "0" : ["type=PLUS", "shift=True", "alt=True"]
+                    },
                     "power_sequencer.add_transform" : {
                         "0" : ["type=T"]
                     },

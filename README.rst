@@ -173,7 +173,8 @@
     triple">Increase Playback Speed</a></td>
             <td width=222px><a name="top_Select_Linked_Effect" href="#Select_Linked_Effect" title="Select all strips that are
     linked by an effect strip">Select Linked Effect</a></td>
-            <td width=222px rowspan="2"></td>
+            <td width=222px><a name="top_Remove_Speed" href="#Remove_Speed" title="Removes speed from META,
+    un-groups META">Remove Speed</a></td>
         </tr>
         <tr>
             <td width=222px><a name="top_Decrease_Playback_Speed" href="#Decrease_Playback_Speed" title="Decrease playback speed
@@ -183,6 +184,7 @@
             <td width=222px><a name="top_Set_Preview_Between_Markers" href="#Set_Preview_Between_Markers" title="Set the timeline's preview
     range using the 2 markers
     closest to the time cursor">Set Preview Between Markers</a></td>
+            <td width=222px rowspan="1"></td>
         </tr>
     </table>
         <h3><a name="Add_Crossfade" href="#top_Add_Crossfade">Add Crossfade</a></h3>
@@ -813,6 +815,21 @@
             <tr>
                 <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/ALT.png" alt="ALT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/SHIFT.png" alt="SHIFT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/ACTIONMOUSE.png" alt="ACTIONMOUSE"></td>
                 <td><p>Trim To Surrounding Cuts</p>
+        </td>
+            </tr>
+        </table>
+        <h3><a name="Remove_Speed" href="#top_Remove_Speed">Remove Speed</a></h3>
+    <p>This is the opposite of power_sequencer's "Add Speed" operator.
+    It seeks out and removes the speed modifier inside a meta and
+    ungroups all the remaining strips within.</p>
+    
+        <table>
+            <tr>
+                <th width=208px>Shortcut</th>
+                <th width=417px>Function</th>
+            <tr>
+                <td align="center"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/ALT.png" alt="ALT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/SHIFT.png" alt="SHIFT"><img src="https://cdn.rawgit.com/doakey3/Keyboard-SVGs/master/images/PLUS.png" alt="PLUS"></td>
+                <td><p>Remove Speed</p>
         </td>
             </tr>
         </table>
