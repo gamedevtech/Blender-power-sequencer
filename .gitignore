@@ -7,7 +7,6 @@ __pycache__
 # Programming resources used by doakey3
 _make_op_init.py
 _make_util_init.py
-_op_consistency_checker.py
 _addon_linker.py
 _strip_trailing.py
 _todo.txt

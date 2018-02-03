@@ -3,7 +3,8 @@ import bpy
 
 class ClearFades(bpy.types.Operator):
     """
-    For each selected strip, set opacity to 1.0 and remove any opacity-keyframes.
+    For each selected strip, set opacity to 1.0 and remove any
+    opacity-keyframes.
     """
     bl_idname = "power_sequencer.clear_fades"
     bl_label = "Clear Fades"
