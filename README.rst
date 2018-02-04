@@ -79,114 +79,119 @@
     closest sequence to it's right">Add Crossfade</a></td>
             <td width=222px><a name="top_Decrease_Playback_Speed" href="#Decrease_Playback_Speed" title="Decrease playback speed
     incrementally down to normal">Decrease Playback Speed</a></td>
-            <td width=222px><a name="top_Make_Still_Image" href="#Make_Still_Image" title="Make still image from active
-    strip">Make Still Image</a></td>
-            <td width=222px><a name="top_Set_Preview_Between_Markers" href="#Set_Preview_Between_Markers" title="Set the timeline's preview
-    range using the 2 markers
-    closest to the time cursor">Set Preview Between Markers</a></td>
-        </tr>
-        <tr>
-            <td width=222px><a name="top_Add_Speed" href="#Add_Speed" title="Add 2x speed, set frame end,
-    wrap both into META">Add Speed</a></td>
-            <td width=222px><a name="top_Delete_Closest_Marker" href="#Delete_Closest_Marker" title="Delete the marker closest to
-    the mouse">Delete Closest Marker</a></td>
             <td width=222px><a name="top_Mouse_Cut" href="#Mouse_Cut" title="Fast strip cutting based on
     mouse position">Mouse Cut</a></td>
-            <td width=222px><a name="top_Set_Timeline_Range" href="#Set_Timeline_Range" title="Set timeline start and end
-    frame using the time cursor">Set Timeline Range</a></td>
-        </tr>
-        <tr>
-            <td width=222px><a name="top_Add_Transform" href="#Add_Transform" title="Add transform effect to
-    selected image and movie
-    strips. Auto centers images">Add Transform</a></td>
-            <td width=222px><a name="top_Delete_Direct" href="#Delete_Direct" title="Delete without confirmation">Delete Direct</a></td>
-            <td width=222px><a name="top_Mouse_Toggle_Mute" href="#Mouse_Toggle_Mute" title="Toggle mute status of clicked
-    strips">Mouse Toggle Mute</a></td>
             <td width=222px><a name="top_Set_Videos_Proxies" href="#Set_Videos_Proxies" title="Set all video strips in the
     current scene as proxies and
     rebuild using Blender's proxy
     generation">Set Videos Proxies</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Align_Audios" href="#Align_Audios" title="Align two similar audios">Align Audios</a></td>
-            <td width=222px><a name="top_Deselect_Handles_And_Grab" href="#Deselect_Handles_And_Grab" title="Deselect the handles of all
-    selected strips and call the
-    Sequence Slide operator">Deselect Handles And Grab</a></td>
-            <td width=222px><a name="top_Mouse_Trim_Strips" href="#Mouse_Trim_Strips" title="Trim strip from a start to an
-    end frame">Mouse Trim Strips</a></td>
+            <td width=222px><a name="top_Add_Speed" href="#Add_Speed" title="Add 2x speed, set frame end,
+    wrap both into META">Add Speed</a></td>
+            <td width=222px><a name="top_Delete_Closest_Marker" href="#Delete_Closest_Marker" title="Delete the marker closest to
+    the mouse">Delete Closest Marker</a></td>
+            <td width=222px><a name="top_Mouse_Toggle_Mute" href="#Mouse_Toggle_Mute" title="Toggle mute status of clicked
+    strips">Mouse Toggle Mute</a></td>
             <td width=222px><a name="top_Smart_Snap_Strip_Handles" href="#Smart_Snap_Strip_Handles" title="Trims, extends, and snaps
     selected strips to cursor">Smart Snap Strip Handles</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Border_Select" href="#Border_Select" title="Wrapper around Blender's border
-    select, deselects handles">Border Select</a></td>
-            <td width=222px><a name="top_Edit_Crossfade" href="#Edit_Crossfade" title="Adjust the location of the
-    crossfade between 2 strips">Edit Crossfade</a></td>
-            <td width=222px><a name="top_Open_Project_Directory" href="#Open_Project_Directory" title="Opens the Blender project
-    directory in file explorer">Open Project Directory</a></td>
+            <td width=222px><a name="top_Add_Transform" href="#Add_Transform" title="Add transform effect to
+    selected image and movie
+    strips. Auto centers images">Add Transform</a></td>
+            <td width=222px><a name="top_Delete_Direct" href="#Delete_Direct" title="Delete without confirmation">Delete Direct</a></td>
+            <td width=222px><a name="top_Mouse_Trim_Strips" href="#Mouse_Trim_Strips" title="Trim strip from a start to an
+    end frame">Mouse Trim Strips</a></td>
             <td width=222px><a name="top_Snap_Marker_To_Cursor" href="#Snap_Marker_To_Cursor" title="Snap selected marker to the
     time cursor">Snap Marker To Cursor</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Change_Playback_Speed" href="#Change_Playback_Speed" title="Change the playback speed">Change Playback Speed</a></td>
-            <td width=222px><a name="top_Fade_Strips" href="#Fade_Strips" title="Fade left, right or both sides
-    of all selected strips in the
-    VSE">Fade Strips</a></td>
-            <td width=222px><a name="top_Preview_Last_Cut" href="#Preview_Last_Cut" title="Toggle preview around the last
-    cut, based on time cursor">Preview Last Cut</a></td>
+            <td width=222px><a name="top_Align_Audios" href="#Align_Audios" title="Align two similar audios">Align Audios</a></td>
+            <td width=222px><a name="top_Deselect_Handles_And_Grab" href="#Deselect_Handles_And_Grab" title="Deselect the handles of all
+    selected strips and call the
+    Sequence Slide operator">Deselect Handles And Grab</a></td>
+            <td width=222px><a name="top_Open_Project_Directory" href="#Open_Project_Directory" title="Opens the Blender project
+    directory in file explorer">Open Project Directory</a></td>
             <td width=222px><a name="top_Snap_Selection_To_Cursor" href="#Snap_Selection_To_Cursor" title="Snap selected strips to the
     cursor as a block">Snap Selection To Cursor</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Channel_Offset" href="#Channel_Offset" title="Move selected strips up or down
-    a channel">Channel Offset</a></td>
-            <td width=222px><a name="top_Go_To_Next_Marker" href="#Go_To_Next_Marker" title="Move time cursor to the next
-    marker">Go To Next Marker</a></td>
-            <td width=222px><a name="top_Preview_To_Selection" href="#Preview_To_Selection" title="Sets the timeline preview range
-    to that of the selected
-    sequences.">Preview To Selection</a></td>
+            <td width=222px><a name="top_Batch_Transcode" href="#Batch_Transcode" title="Transcode a list of selected
+    video files to a frame rate">Batch Transcode</a></td>
+            <td width=222px><a name="top_Edit_Crossfade" href="#Edit_Crossfade" title="Adjust the location of the
+    crossfade between 2 strips">Edit Crossfade</a></td>
+            <td width=222px><a name="top_Preview_Last_Cut" href="#Preview_Last_Cut" title="Toggle preview around the last
+    cut, based on time cursor">Preview Last Cut</a></td>
             <td width=222px><a name="top_Synchronize_Titles" href="#Synchronize_Titles" title="Snap the selected image or text
     strips to the corresponding
     title marker">Synchronize Titles</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Clear_Fades" href="#Clear_Fades" title="Set selected strips' opacity to
-    1.0 and remove opacity
-    keyframes">Clear Fades</a></td>
-            <td width=222px><a name="top_Grab_Closest_Handle_Or_Cut" href="#Grab_Closest_Handle_Or_Cut" title="Grab the closest strip's
-    handle, or cut it">Grab Closest Handle Or Cut</a></td>
-            <td width=222px><a name="top_Render_For_Web" href="#Render_For_Web" title="Pick a rendering preset and let
-    Blender name and export the
-    video for you. Replaces strips
-    with proxies if necessary.">Render For Web</a></td>
+            <td width=222px><a name="top_Border_Select" href="#Border_Select" title="Wrapper around Blender's border
+    select, deselects handles">Border Select</a></td>
+            <td width=222px><a name="top_Fade_Strips" href="#Fade_Strips" title="Fade left, right or both sides
+    of all selected strips in the
+    VSE">Fade Strips</a></td>
+            <td width=222px><a name="top_Preview_To_Selection" href="#Preview_To_Selection" title="Sets the timeline preview range
+    to that of the selected
+    sequences.">Preview To Selection</a></td>
             <td width=222px><a name="top_Toggle_Selected_Mute" href="#Toggle_Selected_Mute" title="Mute or unmute selected
     sequences">Toggle Selected Mute</a></td>
         </tr>
         <tr>
-            <td width=222px><a name="top_Concatenate_Strips" href="#Concatenate_Strips" title="Remove space between strips">Concatenate Strips</a></td>
-            <td width=222px><a name="top_Grab_Sequence_Handles" href="#Grab_Sequence_Handles" title="Grabs the sequence's handle
-    based on the mouse position">Grab Sequence Handles</a></td>
+            <td width=222px><a name="top_Change_Playback_Speed" href="#Change_Playback_Speed" title="Change the playback speed">Change Playback Speed</a></td>
+            <td width=222px><a name="top_Go_To_Next_Marker" href="#Go_To_Next_Marker" title="Move time cursor to the next
+    marker">Go To Next Marker</a></td>
+            <td width=222px><a name="top_Render_For_Web" href="#Render_For_Web" title="Pick a rendering preset and let
+    Blender name and export the
+    video for you. Replaces strips
+    with proxies if necessary.">Render For Web</a></td>
+            <td width=222px><a name="top_Toggle_Waveforms" href="#Toggle_Waveforms" title="Toggle audio waveforms">Toggle Waveforms</a></td>
+        </tr>
+        <tr>
+            <td width=222px><a name="top_Channel_Offset" href="#Channel_Offset" title="Move selected strips up or down
+    a channel">Channel Offset</a></td>
+            <td width=222px><a name="top_Grab_Closest_Handle_Or_Cut" href="#Grab_Closest_Handle_Or_Cut" title="Grab the closest strip's
+    handle, or cut it">Grab Closest Handle Or Cut</a></td>
             <td width=222px><a name="top_Ripple_Delete" href="#Ripple_Delete" title="Delete the selected sequences
     and remove gaps">Ripple Delete</a></td>
-            <td width=222px><a name="top_Toggle_Waveforms" href="#Toggle_Waveforms" title="Toggle audio waveforms">Toggle Waveforms</a></td>
+            <td width=222px><a name="top_Trim_To_Surrounding_Cuts" href="#Trim_To_Surrounding_Cuts" title="Trim to surrounding cuts">Trim To Surrounding Cuts</a></td>
+        </tr>
+        <tr>
+            <td width=222px><a name="top_Clear_Fades" href="#Clear_Fades" title="Set selected strips' opacity to
+    1.0 and remove opacity
+    keyframes">Clear Fades</a></td>
+            <td width=222px><a name="top_Grab_Sequence_Handles" href="#Grab_Sequence_Handles" title="Grabs the sequence's handle
+    based on the mouse position">Grab Sequence Handles</a></td>
+            <td width=222px><a name="top_Save_Direct" href="#Save_Direct" title="Save current .blend file
+    without confirmation">Save Direct</a></td>
+            <td width=222px><a name="top_Unspeed" href="#Unspeed" title="Removes speed from META,
+    un-groups META">Unspeed</a></td>
+        </tr>
+        <tr>
+            <td width=222px><a name="top_Concatenate_Strips" href="#Concatenate_Strips" title="Remove space between strips">Concatenate Strips</a></td>
+            <td width=222px><a name="top_Import_Local_Footage" href="#Import_Local_Footage" title="Import video and audio from the
+    project folder to VSE strips">Import Local Footage</a></td>
+            <td width=222px><a name="top_Select_Linked_Effect" href="#Select_Linked_Effect" title="Select all strips that are
+    linked by an effect strip">Select Linked Effect</a></td>
+            <td width=222px rowspan="3"></td>
         </tr>
         <tr>
             <td width=222px><a name="top_Copy_Selected_Sequences" href="#Copy_Selected_Sequences" title="Copy/cut strips without offset
     from current time indicator">Copy Selected Sequences</a></td>
-            <td width=222px><a name="top_Import_Local_Footage" href="#Import_Local_Footage" title="Import video and audio from the
-    project folder to VSE strips">Import Local Footage</a></td>
-            <td width=222px><a name="top_Save_Direct" href="#Save_Direct" title="Save current .blend file
-    without confirmation">Save Direct</a></td>
-            <td width=222px><a name="top_Trim_To_Surrounding_Cuts" href="#Trim_To_Surrounding_Cuts" title="Trim to surrounding cuts">Trim To Surrounding Cuts</a></td>
+            <td width=222px><a name="top_Increase_Playback_Speed" href="#Increase_Playback_Speed" title="Increase playback speed up to
+    triple">Increase Playback Speed</a></td>
+            <td width=222px><a name="top_Set_Preview_Between_Markers" href="#Set_Preview_Between_Markers" title="Set the timeline's preview
+    range using the 2 markers
+    closest to the time cursor">Set Preview Between Markers</a></td>
         </tr>
         <tr>
             <td width=222px><a name="top_Cycle_Scenes" href="#Cycle_Scenes" title="Cycle through scenes">Cycle Scenes</a></td>
-            <td width=222px><a name="top_Increase_Playback_Speed" href="#Increase_Playback_Speed" title="Increase playback speed up to
-    triple">Increase Playback Speed</a></td>
-            <td width=222px><a name="top_Select_Linked_Effect" href="#Select_Linked_Effect" title="Select all strips that are
-    linked by an effect strip">Select Linked Effect</a></td>
-            <td width=222px><a name="top_Unspeed" href="#Unspeed" title="Removes speed from META,
-    un-groups META">Unspeed</a></td>
+            <td width=222px><a name="top_Make_Still_Image" href="#Make_Still_Image" title="Make still image from active
+    strip">Make Still Image</a></td>
+            <td width=222px><a name="top_Set_Timeline_Range" href="#Set_Timeline_Range" title="Set timeline start and end
+    frame using the time cursor">Set Timeline Range</a></td>
         </tr>
     </table>
         <h3><a name="Add_Crossfade" href="#top_Add_Crossfade">Add Crossfade</a></h3>
@@ -267,6 +272,19 @@
                 <td align="center" rowspan="1"><img src="https://i.imgur.com/xkBUzDj.gif" alt="Demo"></td>
             </tr>
         </table>
+        <h3><a name="Batch_Transcode" href="#top_Batch_Transcode">Batch Transcode</a></h3>
+    <p>Batch Transcode a list of videos</p>
+    
+    <p>Select which files to transcode, frame rate, and whether or not to
+    include audio. New video files are generated for all the strips that
+    are not currently using the desired frame rate.</p>
+    
+    <p>This operator is available in the user interface.</p>
+    
+        <table>
+            <tr>
+                <th width=208px>Shortcut</th>
+        </table>
         <h3><a name="Border_Select" href="#top_Border_Select">Border Select</a></h3>
     <p></p>
     
@@ -328,7 +346,8 @@
             </tr>
         </table>
         <h3><a name="Clear_Fades" href="#top_Clear_Fades">Clear Fades</a></h3>
-    <p>Sets strip's opacity to 1.0 and removes any opacity-keyframes.</p>
+    <p>For each selected strip, set opacity to 1.0 and remove any
+    opacity-keyframes.</p>
     
         <table>
             <tr>
@@ -471,7 +490,7 @@
             </tr>
         </table>
         <h3><a name="Fade_Strips" href="#top_Fade_Strips">Fade Strips</a></h3>
-    <p>Animate a strips opacity to zero. By default, the duration of the 
+    <p>Animate a strips opacity to zero. By default, the duration of the
     fade is 0.5 seconds.</p>
     
         <table>
@@ -580,7 +599,7 @@
                 <th width=208px>Shortcut</th>
         </table>
         <h3><a name="Mouse_Cut" href="#top_Mouse_Cut">Mouse Cut</a></h3>
-    <p>With this function you can quickly cut and remove a section of 
+    <p>With this function you can quickly cut and remove a section of
     strips while keeping or collapsing the remaining gap.</p>
     
     <p>A <a href="https://youtu.be/GiLmDhmMVAM?t=1m35s">video demo</a> is available.</p>
