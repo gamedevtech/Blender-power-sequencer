@@ -23,6 +23,9 @@ def playback_speed_post(scene):
     It steps over frame rather than increase the playback speed smoothly,
     but it's still useful for faster editing
     """
+    if not bpy.context.screen:
+        return
+
     if not bpy.context.screen.is_animation_playing:
         return
 
