@@ -273,18 +273,15 @@
             </tr>
         </table>
         <h3><a name="Batch_Transcode" href="#top_Batch_Transcode">Batch Transcode</a></h3>
-    <p>Batch Transcode a list of videos</p>
+    <p>Batch Transcode videos to a specific framerate.</p>
     
     <p>Select which files to transcode, frame rate, and whether or not to
     include audio. New video files are generated for all the strips that
     are not currently using the desired frame rate.</p>
     
-    <p>This operator is available in the user interface.</p>
+    <p>This operator is available in the user interface only.</p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Border_Select" href="#top_Border_Select">Border Select</a></h3>
     <p></p>
     
@@ -447,10 +444,7 @@
         <h3><a name="Delete_Closest_Marker" href="#top_Delete_Closest_Marker">Delete Closest Marker</a></h3>
     <p></p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Delete_Direct" href="#top_Delete_Direct">Delete Direct</a></h3>
     <p>Deletes without prompting for confirmation</p>
     
@@ -468,10 +462,7 @@
     <p>Deselect the handles of all selected strips and call the
     Sequence Slide operator</p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Edit_Crossfade" href="#top_Edit_Crossfade">Edit Crossfade</a></h3>
     <p>Selects the handles of both inputs of a crossfade strip's input and 
     calls the grab operator. Allows you to quickly change the location
@@ -518,10 +509,7 @@
         <h3><a name="Go_To_Next_Marker" href="#top_Go_To_Next_Marker">Go To Next Marker</a></h3>
     <p>Moves the time cursor to the next marker</p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Grab_Closest_Handle_Or_Cut" href="#top_Grab_Closest_Handle_Or_Cut">Grab Closest Handle Or Cut</a></h3>
     <p>Selects and grabs the strip handle or cut closest to the mouse cursor.
     Hover near a cut and fire this tool to slide it.</p>
@@ -594,10 +582,7 @@
     <p>Converts image under the cursor to a still image, to create
     a pause effect in the video, using the active sequence</p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Mouse_Cut" href="#top_Mouse_Cut">Mouse Cut</a></h3>
     <p>With this function you can quickly cut and remove a section of
     strips while keeping or collapsing the remaining gap.</p>
@@ -659,10 +644,7 @@
         <h3><a name="Open_Project_Directory" href="#top_Open_Project_Directory">Open Project Directory</a></h3>
     <p></p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Preview_Last_Cut" href="#top_Preview_Last_Cut">Preview Last Cut</a></h3>
     <p>Finds the closest cut to the time cursor and
     sets the preview to a small range around that frame.
@@ -736,31 +718,19 @@
         <h3><a name="Select_Linked_Effect" href="#top_Select_Linked_Effect">Select Linked Effect</a></h3>
     <p></p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Set_Preview_Between_Markers" href="#top_Set_Preview_Between_Markers">Set Preview Between Markers</a></h3>
     <p></p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Set_Timeline_Range" href="#top_Set_Timeline_Range">Set Timeline Range</a></h3>
     <p>Set the timeline start and end frame using the time cursor</p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Set_Videos_Proxies" href="#top_Set_Videos_Proxies">Set Videos Proxies</a></h3>
     <p></p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Smart_Snap_Strip_Handles" href="#top_Smart_Snap_Strip_Handles">Smart Snap Strip Handles</a></h3>
     <p>Trims, extends and snaps selected strips to cursor</p>
     
@@ -782,10 +752,7 @@
         <h3><a name="Snap_Marker_To_Cursor" href="#top_Snap_Marker_To_Cursor">Snap Marker To Cursor</a></h3>
     <p></p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Snap_Selection_To_Cursor" href="#top_Snap_Selection_To_Cursor">Snap Selection To Cursor</a></h3>
     <p>Snap selected strips to the cursor, but as a block</p>
     
@@ -803,10 +770,7 @@
     <p>Snap the selected image or text strips to the corresponding title 
     marker. The marker and strip names have to start with TITLE-001</p>
     
-        <table>
-            <tr>
-                <th width=208px>Shortcut</th>
-        </table>
+        
         <h3><a name="Toggle_Selected_Mute" href="#top_Toggle_Selected_Mute">Toggle Selected Mute</a></h3>
     <p></p>
     

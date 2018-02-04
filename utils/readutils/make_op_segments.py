@@ -27,6 +27,8 @@ def extract_demo_images(docstring):
 def make_shortcuts_table(shortcuts, label, demo_images):
     hotkeys = []
     functions = []
+    if len(shortcuts.keys()) == 0:
+        return ''
     for key in shortcuts.keys():
         hotkeys.append(shortcuts[key].replace('keys=', '').split(';')[0].split(' '))
 
