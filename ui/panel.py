@@ -52,7 +52,7 @@ class Panel(bpy.types.Panel):
 
         elif scene.power_sequencer.active_tab == "Render":
             row = box.row()
-            row.label("Render Functions Here")
+            row.operator('power_sequencer.batch_transcode', icon="CONSOLE")
 
         elif scene.power_sequencer.active_tab == "Modifier":
             row = box.row()
